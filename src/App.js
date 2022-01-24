@@ -1,5 +1,6 @@
-import "./styles.css";
-import Timer from "./Components/Timer";
+import React from 'react';
+import './styles.css';
+import Timer from './Components/Timer';
 export default function App() {
   return (
     <div className="App">

@@ -1,0 +1,10 @@
+.bi {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+h1 {
+  padding-top: 20px;
+  font-weight: bolder;
+}

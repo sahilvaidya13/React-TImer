@@ -8,16 +8,16 @@ const Timer = () => {
       const myint = setInterval(() => {
         setNum((c) => c + 1);
       }, 1000);
-      console.log("running");
+
       return () => {
         clearInterval(myint);
-        console.log("ended");
       };
     }
   }, [isRunning]);
 
   return (
     <div>
+      <h1>Timer</h1>
       <h1>{currnum}</h1>
       <button onClick={() => setRunning(false)}>Stop</button>
       <button onClick={() => setRunning(true)}>Start</button>
